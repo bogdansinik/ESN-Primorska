@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "CachetW05-ExtraLight";
+    src: url("/fonts/CachetW05-ExtraLight.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "CachetW05-Bold";
+    src: url("/fonts/CachetW05-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "CachetW05-Book";
+    src: url("/fonts/CachetW05-Book.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "CachetW05-Medium";
+    src: url("/fonts/CachetW05-Medium.woff2") format("woff2");
+}
