@@ -38,7 +38,11 @@ function Exchange_student() {
                         <div style={{width: "80%", marginLeft: "10%", marginTop: "5%", marginBottom: "5%"}}>
                             <div id="carousel_a9b5">
                                 <div className="slide">
-                                    <Image className="resize" src={image2} alt="Before arrival"  layout="fill"/>
+                                    <Image className="resize" src={image2} 
+                                    style={{
+                                        borderRadius:"20px"                       
+                                     }}
+                                    alt="Before arrival"  layout="fill"/>
                                     <div className="slide-content">
                                         <div className="button">
                                             <p><Link href="/before_arrival"><a>Before arrival</a></Link></p>
@@ -47,7 +51,9 @@ function Exchange_student() {
                                 </div>
 
                                 <div className="slide">
-                                    <Image className="resize" src={image1} alt="During mobility"  layout="fill"/>
+                                    <Image className="resize" src={image1} alt="During mobility"  layout="fill" style={{
+                                        borderRadius:"20px"                                        
+                                     }} />
                                     <div className="slide-content">
                                         <div className="button">
                                             <p><Link href="/mobility"><a>During mobility</a></Link></p>

@@ -715,7 +715,7 @@ a:hover, .toTop:hover {
     font-size: 35px;
     line-height: 34pt;
     margin: 15px 0;
-    color:#7ac143;
+    color:#00aeef;
     text-transform: uppercase;
 }
 
@@ -757,7 +757,7 @@ a:hover, .toTop:hover {
 }
 
 .mainContentArea a {
-    color: #7ac143;
+    color: #00aeef;
     text-decoration: underline;
     font-weight: 500;
 }
@@ -4573,7 +4573,7 @@ ul.areas li:before {
 }
 
 .ctaWrapOverlay {
-    background: rgba(0, 174, 239, 0.6);
+    background:rgb(120 194 68 / 60%);
     text-align: center;
     padding: 100px 0 80px; /* max-width:1200px; */
     margin: 0 auto;
@@ -5022,14 +5022,13 @@ ul.areas li:before {
 }
 
 /*Calendar*/
-
-.calendar {
-	display: grid;
-	row-gap: 10rem;
-    margin: 50px;
-    font-family: "CachetW05-Medium";
-    font-size: medium;
+#calendarDiv {
+    max-width: 800px;
+    max-height: 800px;
 }
+
+
+
 
 /*
 @media screen and (max-width: 531px) {

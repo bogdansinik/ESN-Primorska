@@ -17,7 +17,6 @@ function HomePage() {
                 <About/>
                 <IndexGallery/>
                 <IndexTwoColumns/>
-                <IndexNews/>
                 <IndexParalax/>
             </div>
         </Fragment>

@@ -1,9 +1,10 @@
-import {Calendar, dateFnsLocalizer} from "react-big-calendar";
-import {format, parse, startOfWeek, getDay} from "date-fns";
-import "react-big-calendar/lib/css/react-big-calendar.css";
-import {useEffect} from "react";
-import {Client} from "@notionhq/client";
-
+// import {Calendar, dateFnsLocalizer} from "react-big-calendar";
+// import {format, parse, startOfWeek, getDay} from "date-fns";
+// import "react-big-calendar/lib/css/react-big-calendar.css";
+// import {useEffect} from "react";
+// import {Client} from "@notionhq/client";
+import Image from 'next/image';
+import CalendarImage from '../../public/calendarDecember.png';
 // export async function getStaticProps() {
 
 //     const notion = new Client({auth: process.env.NOTION_API_KEY})
@@ -246,8 +247,16 @@ function MyCalendar(){
                 <div className="mwPageBlock">
                     <div className="blockContents">
                         <div className="contentAreaWhite">
-                            <div className="mainContentArea">
-                
+                            <div className="mainContentArea" id = "calendarDiv">
+                                <Image 
+                                    style={{
+                                        borderRadius:"20px"                                        
+                                     }}
+                                    src= {CalendarImage}
+                                    width={800}
+                                    height={800}
+                                    id="calendarImage"
+                                />
                             </div>
                         </div>
                     </div>

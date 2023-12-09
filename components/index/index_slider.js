@@ -87,7 +87,7 @@ function Slider() {
                                 <div className="caption">
                                     <div className="captionContainer">
                                         <div className="captionInner">
-                                            <h3>Placeholder</h3>
+                                            <h3>Jožefying</h3>
                                             <p>Welcome to the exciting world of ESN Primorska!</p>
                                             <div className="button">
                                                 <p><a href="#">Learn More</a></p>
