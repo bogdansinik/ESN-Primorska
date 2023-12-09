@@ -657,7 +657,7 @@ a:hover, .toTop:hover {
 }
 
 .contentAreaWhite {
-    background: #ffffff;
+    background: #fff;
     /*width: 86%;*/
     padding: 60px 7%;
     z-index: 9;
@@ -715,7 +715,7 @@ a:hover, .toTop:hover {
     font-size: 35px;
     line-height: 34pt;
     margin: 15px 0;
-    color: #414042;
+    color:#7ac143;
     text-transform: uppercase;
 }
 
@@ -757,7 +757,7 @@ a:hover, .toTop:hover {
 }
 
 .mainContentArea a {
-    color: #414042;
+    color: #7ac143;
     text-decoration: underline;
     font-weight: 500;
 }
@@ -4703,7 +4703,9 @@ ul.areas li:before {
 
 
 .homeNews {
+    border: solid 3px #7ac143;
     background: #fff;
+    border-radius: 10px;
     box-shadow: 0 10px 15px rgb(0 0 0 / 10%);
 }
 
@@ -4745,7 +4747,7 @@ ul.areas li:before {
     width: 48%;
     float: left;
     height: 400px;
-    background: #efefef;
+    border-right: #7ac143 3px solid;
     padding: 0;
     position: relative;
 }
@@ -4760,22 +4762,18 @@ ul.areas li:before {
     padding: 20px;
     width: 90%;
     padding: 10% 5%;
-    background: rgba(0, 0, 0, .5);
-    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
-    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#a6000000', GradientType=0);
 }
 
 .homeNewsItem:first-child p {
-    color: #fff;
+    color: #7ac143;
     font-size: 20px;
     font-family: "CachetW05-Medium";
     position: absolute;
-    bottom: 10%;
-    lefT: 10%;
-    font-size: 35px;
+    bottom: 0%;
+    left: 10%;
+    font-size: 30px;
     width: 70%;
+    text-align: center;
     line-height: unset;
 }
 
