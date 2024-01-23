@@ -15,16 +15,6 @@
     "static/development/_middlewareManifest.js"
   ],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
-    "/404": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/404.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -35,25 +25,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/calendar": [
+    "/activities": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/calendar.js"
+      "static/chunks/pages/activities.js"
     ],
     "/events": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/events.js"
     ],
-    "/news": [
+    "/exchange_preparation": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/news.js"
-    ],
-    "/trips": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/trips.js"
+      "static/chunks/pages/exchange_preparation.js"
     ]
   },
   "ampFirstPages": []
