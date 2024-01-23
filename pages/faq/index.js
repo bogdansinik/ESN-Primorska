@@ -181,19 +181,28 @@ function FAQ() {
                                             <div className="blockContents">
                                                 <h5>Where can I find information about accommodation?</h5>
                                                 <p>
-                                                    Answer goes here.
+                                                    For any information regarding the accommodation, you can contact ac.primorska.exchange@upr.si.
+
                                                 </p>
                                                 <h5>Do you help students with accommodation or do we make accommodation arrangements by ourselves?</h5>
                                                 <p>
-                                                    Answer goes here.
+                                                    We have assembled a catalogue of all the available accommodations we have made an agreement with for
+                                                    students that are coming on an exchange. There you can find all the information and contacts needed.
+                                                    We can help you with any questions or issues that might arise.
+                                                    But the final agreement is made directly with the landlords.
                                                 </p>
                                                 <h5>Do you offer rooms in the student dormitory?</h5>
                                                 <p>
-                                                    Answer goes here.
+                                                    Unfortunately no, we as an organization do not offer rooms in the student dormitories.
+
                                                 </p>
                                                 <h5>Can I apply for a room at the Student Dormitories of the University of Primorska?</h5>
                                                 <p>
-                                                    Answer goes here.
+                                                    Unfortunately, University of Primorska has limited amount of places in student dormitories,
+                                                    which is why you cannot apply for a room. The only exception are the first year students,
+                                                    who will study full time at the University of Primorska. However, there are also some private
+                                                    student dormitories in Koper and Izola
+                                                    for which you can apply for.
                                                 </p>
                                             </div>
                                         </div>
