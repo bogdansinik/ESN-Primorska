@@ -5,8 +5,8 @@ import { useEffect } from "react";
 import { Client } from "@notionhq/client";
 
 export async function getStaticProps() {
-    const notion = new Client({ auth: "secret_VW9VLSvTqZPBfSkhe62bSihwTWUuoXi5pzZfQb2SEPH" });
-    const dbId = "7ce84262afd745199c772082d88488cf?v=ef5f27cd739a40978e851052f7a82f77&pvs=12";
+    const notion = new Client({ auth: process.env.NOTION_API_KEY });
+    const dbId = process.env.NOTION_DB_ID;
     const db = await notion.databases.query({ database_id: dbId });
     const results = db.results;
 
