@@ -1,0 +1,50 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+.next/cache
+.next/build-manifest.json
+.next/cache/webpack/client-development/0.pack
+.next/cache/webpack/client-development/4.pack
+.next/cache/webpack/client-development/6.pack
+.next/cache/webpack/client-development/9.pack
+.next/cache/webpack/client-development/index.pack
+.next/cache/webpack/client-development/index.pack.old
+.next/cache/webpack/server-development/2.pack
+.next/cache/webpack/server-development/6.pack
+.next/cache/webpack/server-development/8.pack
+.next/cache/webpack/server-development/14.pack
+.next/cache/webpack/server-development/index.pack
+.next/cache/webpack/server-development/index.pack.old
+.next/server/middleware-build-manifest.js
+.next/server/pages-manifest.json
+.next/static/chunks/webpack.js
+.next/static/development/_buildManifest.js
