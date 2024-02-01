@@ -107,6 +107,15 @@ function Trips() {
                                                             </a>
                                                             <a className="arrow"></a>
                                                         </li>
+                                                        <li className="no-children">
+                                                            <a href="#celje">
+                                                                <span className="Title">
+                                                                    Celje, Maribor and Graz trip
+                                                                </span>
+                                                                
+                                                            </a>
+                                                            <a className="arrow"></a>
+                                                        </li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -335,12 +344,12 @@ function Trips() {
                                         <br />
                                         <div className="mwPageBlock Content">
                                             <div id="celje" className="blockContents">
-                                                <h2>CELLJE, MARIBOR AND GRAZ TRIP</h2>
+                                                <h2>CELJE, MARIBOR AND GRAZ TRIP</h2>
                                             </div>
                                         </div>
 
                                         <div className="mwPageBlock Content">
-                                            <div id="buddy" className="blockContents">
+                                            <div id="celje" className="blockContents">
                                                 <p>
                                                     During the month of November ESN Primorska
                                                     decided to organize first of their erasmus trips

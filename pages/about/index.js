@@ -190,14 +190,14 @@ function About() {
                                                                         Mascot
                                                                     </p>
                                                                     <div className="social-icons">
-                                                                        <a href="mailto:joze@esn-primorska.si"
+                                                                        {/* <a href="mailto:joze@esn-primorska.si"
                                                                            style={{fontSize:"large"}}>
                                                                             <span className="fa fa-envelope"/>
-                                                                        </a>
-                                                                        <a href="#"
+                                                                        </a> */}
+                                                                        {/* <a href="#"
                                                                            style={{fontSize:"large"}}>
                                                                             <span className="fab fa-LinkedIn"/>
-                                                                        </a>
+                                                                        </a> */}
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -218,10 +218,10 @@ function About() {
                                                                            style={{fontSize:"large"}}>
                                                                             <span className="fa fa-envelope"/>
                                                                         </a>
-                                                                        <a href="#"
+                                                                        {/* <a href="#"
                                                                            style={{fontSize:"large"}}>
                                                                             <span className="fab fa-LinkedIn"/>
-                                                                        </a>
+                                                                        </a> */}
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -242,10 +242,10 @@ function About() {
                                                                            style={{fontSize:"large"}}>
                                                                             <span className="fa fa-envelope"/>
                                                                         </a>
-                                                                        <a href="#"
+                                                                        {/* <a href="#"
                                                                            style={{fontSize:"large"}}>
                                                                             <span className="fab fa-LinkedIn"/>
-                                                                        </a>
+                                                                        </a> */}
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -256,20 +256,20 @@ function About() {
                                                                                src={placeholder}/>
                                                                     </div>
                                                                     <p style={{textAlign: "center"}} className="text-blk name">
-                                                                        Sara<br/>Flegar
+                                                                        Aleksa<br/>Đorđević
                                                                     </p>
                                                                     <p className="text-blk position">
-                                                                        Treasurer
+                                                                        Sponsor Scout
                                                                     </p>
                                                                     <div className="social-icons">
-                                                                        <a href="mailto:treasurer@esn-primorska.si"
+                                                                        <a href="mailto:sponsor@esn-primorska.si"
                                                                            style={{fontSize:"large"}}>
                                                                             <span className="fa fa-envelope"/>
                                                                         </a>
-                                                                        <a href="#"
+                                                                        {/* <a href="#"
                                                                            style={{fontSize:"large"}}>
                                                                             <span className="fab fa-LinkedIn"/>
-                                                                        </a>
+                                                                        </a> */}
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -286,14 +286,14 @@ function About() {
                                                                         PR Coordinator
                                                                     </p>
                                                                     <div className="social-icons">
-                                                                        <a href="mailto:treasurer@esn-primorska.si"
+                                                                        <a href="mailto:pr@esn-primorska.si"
                                                                            style={{fontSize:"large"}}>
                                                                             <span className="fa fa-envelope"/>
                                                                         </a>
-                                                                        <a href="#"
+                                                                        {/* <a href="#"
                                                                            style={{fontSize:"large"}}>
                                                                             <span className="fab fa-LinkedIn"/>
-                                                                        </a>
+                                                                        </a> */}
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -310,14 +310,14 @@ function About() {
                                                                         Event Coordinator
                                                                     </p>
                                                                     <div className="social-icons">
-                                                                        <a href="mailto:treasurer@esn-primorska.si"
+                                                                        <a href="mailto:event@esn-primorska.si"
                                                                            style={{fontSize:"large"}}>
                                                                             <span className="fa fa-envelope"/>
                                                                         </a>
-                                                                        <a href="#"
+                                                                        {/* <a href="#"
                                                                            style={{fontSize:"large"}}>
                                                                             <span className="fab fa-LinkedIn"/>
-                                                                        </a>
+                                                                        </a> */}
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -335,14 +335,14 @@ function About() {
                                                                         Human Resources
                                                                     </p>
                                                                     <div className="social-icons">
-                                                                        <a href="mailto:event@esn-primorska.si"
+                                                                        <a href="mailto:hr@esn-primorska.si"
                                                                            style={{fontSize:"large"}}>
                                                                             <span className="fa fa-envelope"/>
                                                                         </a>
-                                                                        <a href="#"
+                                                                        {/* <a href="#"
                                                                            style={{fontSize:"large"}}>
                                                                             <span className="fab fa-LinkedIn"/>
-                                                                        </a>
+                                                                        </a> */}
                                                                     </div>
                                                                 </div>
                                                             </div>

@@ -124,7 +124,7 @@ function Contact() {
                                         <div id="wYZ4EU4HMY790NHA" className="mwPageBlock Content">
                                             <div className="blockContents">
 
-                                                <h3>Building of Rector office </h3>
+                                                <h3>University building </h3>
 
                                                 <h3>ADDRESS: Trg Brolo 12, 6000 Koper </h3>
 
