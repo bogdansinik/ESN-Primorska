@@ -259,10 +259,10 @@ function About() {
                                                                         Aleksa<br/>Đorđević
                                                                     </p>
                                                                     <p className="text-blk position">
-                                                                        Sponsor Scout
+                                                                        Treasurer
                                                                     </p>
                                                                     <div className="social-icons">
-                                                                        <a href="mailto:sponsor@esn-primorska.si"
+                                                                        <a href="mailto:treasurer@esn-primorska.si"
                                                                            style={{fontSize:"large"}}>
                                                                             <span className="fa fa-envelope"/>
                                                                         </a>
