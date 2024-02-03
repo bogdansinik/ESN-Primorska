@@ -15,7 +15,10 @@ import image8 from "../../public/images/Bled/459a2ca0-b627-486a-a52c-80ff6fc9ad8
 import image9 from "../../public/images/Bled/thumbnail.jpg";
 import image10 from "../../public/images/Bled/photo_2022-04-09_12-25-05.jpg";
 import image11 from "../../public/images/Bled/photo_2022-04-09_12-25-09.jpg";
-import maribor1 from "../../public/images/MariborTrip/maribor1.jpeg";
+import maribor1 from "../../public/images/MariborTrip/maribor1.JPG";
+import maribor2 from "../../public/images/MariborTrip/maribor2.JPG";
+import maribor3 from "../../public/images/MariborTrip/maribor3.JPG";
+import maribor4 from "../../public/images/MariborTrip/maribor4.JPG";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -306,23 +309,6 @@ function Trips() {
                                             </div>
                                         </div>
                                         <br />
-                                        <Swiper
-                                            slidesPerView={1}
-                                            spaceBetween={30}
-                                            keyboard={{
-                                                enabled: true,
-                                            }}
-                                            pagination={{
-                                                clickable: true,
-                                            }}
-                                            navigation={true}
-                                            modules={[Keyboard, Pagination, Navigation]}
-                                            className="mySwiper"
-                                        >
-                                            <SwiperSlide>
-                                                <Image alt="" src={maribor1} />
-                                            </SwiperSlide>
-                                        </Swiper>
 
                                         <div className="mwPageBlock Content">
                                             <div id="soca" className="blockContents">
@@ -415,6 +401,32 @@ function Trips() {
                                                 </p>
                                             </div>
                                         </div>
+                                        <Swiper
+                                            slidesPerView={1}
+                                            spaceBetween={30}
+                                            keyboard={{
+                                                enabled: true,
+                                            }}
+                                            pagination={{
+                                                clickable: true,
+                                            }}
+                                            navigation={true}
+                                            modules={[Keyboard, Pagination, Navigation]}
+                                            className="mySwiper"
+                                        >
+                                            <SwiperSlide>
+                                                <Image alt="" src={maribor1} />
+                                            </SwiperSlide>
+                                            <SwiperSlide>
+                                                <Image alt="" src={maribor2} />
+                                            </SwiperSlide>
+                                            <SwiperSlide>
+                                                <Image alt="" src={maribor3} />
+                                            </SwiperSlide>
+                                            <SwiperSlide>
+                                                <Image alt="" src={maribor4} />
+                                            </SwiperSlide>
+                                        </Swiper>
                                     </div>
                                 </div>
                             </div>
