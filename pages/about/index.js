@@ -4,7 +4,11 @@ import Link from "next/link";
 import placeholder from '../../public/images/placeholder.jpg';
 import Joze from '../../public/images/psen_logo.png';
 import Emilija from '../../public/images/emilija.jpg';
-
+import Miloje from '../../public/images/miloje.jpeg';
+import Lana from '../../public/images/lana.jpeg';
+import Jovana from '../../public/images/jovana.jpeg';
+import Aleksa from '../../public/images/aleksa.jpeg';
+import Jelena from '../../public/images/jelena.jpeg';
 function About() {
 
     useEffect(() => {
@@ -205,7 +209,7 @@ function About() {
                                                                 <div className="card">
                                                                     <div className="team-image-wrapper">
                                                                         <Image alt="" className="team-member-image"
-                                                                               src={placeholder}/>
+                                                                               src={Jelena}/>
                                                                     </div>
                                                                     <p style={{textAlign: "center"}} className="text-blk name">
                                                                         Jelena<br/>Pilipović
@@ -229,7 +233,7 @@ function About() {
                                                                 <div className="card">
                                                                     <div className="team-image-wrapper">
                                                                         <Image alt="" className="team-member-image"
-                                                                               src={placeholder}/>
+                                                                               src={Miloje}/>
                                                                     </div>
                                                                     <p style={{textAlign: "center"}} className="text-blk name">
                                                                         Miloje<br/>Vacić
@@ -253,7 +257,7 @@ function About() {
                                                                 <div className="card">
                                                                     <div className="team-image-wrapper">
                                                                         <Image alt="" className="team-member-image"
-                                                                               src={placeholder}/>
+                                                                               src={Aleksa}/>
                                                                     </div>
                                                                     <p style={{textAlign: "center"}} className="text-blk name">
                                                                         Aleksa<br/>Đorđević
@@ -277,7 +281,7 @@ function About() {
                                                                 <div className="card">
                                                                     <div className="team-image-wrapper">
                                                                         <Image alt="" className="team-member-image"
-                                                                               src={placeholder}/>
+                                                                               src={Lana}/>
                                                                     </div>
                                                                     <p style={{textAlign: "center"}} className="text-blk name">
                                                                         Lana<br/>Jurišić
@@ -326,7 +330,7 @@ function About() {
                                                                 <div className="card">
                                                                     <div className="team-image-wrapper">
                                                                         <Image alt="" className="team-member-image"
-                                                                               src={placeholder}/>
+                                                                               src={Jovana}/>
                                                                     </div>
                                                                     <p style={{textAlign: "center"}} className="text-blk name">
                                                                         Jovana<br/>Lukić
