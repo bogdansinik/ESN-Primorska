@@ -27,8 +27,8 @@ function MyApp({Component, pageProps}) {
             <Head>
                 <title>ESN Primorska</title>
                 <meta charSet='utf-8'/>
-                <meta name="keywords" content="psen,primorska,student exchange,program"/>
-                <meta name="description" content="Primorka student exchange network PSEN, University of Primorska UPR"/>
+                <meta name="keywords" content="psen,primorska,hange,program"/>
+                <meta name="description" content="Erasmus Student Network Primorska ESN, University of Primorska UPR"/>
                 <meta name='viewport' content='initial-scale=1.0, width=device-width'/>
                 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
                       rel="stylesheet" type="text/css"/>

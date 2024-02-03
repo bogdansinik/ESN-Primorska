@@ -418,7 +418,7 @@ function Mobility() {
                                             <h5>Psychological Support:</h5>
                                             <p>We know that sometimes moving can be hard, and you may have troubles
                                                 adjusting,
-                                                and therefore Primorska Exchange will try to organize support to
+                                                and therefore ESN Primorska will try to organize support to
                                                 students that
                                                 may need it.
                                                 <br/>
