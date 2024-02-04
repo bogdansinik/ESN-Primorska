@@ -128,7 +128,7 @@ function About() {
                                                         History
                                                     </h2>
 
-                                                    <p>Before becoming ESN Primorska CS, we were known as Primorska
+                                                    <p>Before becoming ESN Primorska, we were known as Primorska
                                                         Student Exchange Network-PSEN.
                                                         We started off with 4 students with a vision and a stuffed goat
                                                         named Joze, and built the team and organization
