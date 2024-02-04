@@ -132,7 +132,7 @@ function Contact() {
                                         </div>
 
                                         <iframe
-                                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11176.47002016851!2d13.7295516!3d45.5479617!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcef86a13c03d84d4!2sESN%20Primorska!5e0!3m2!1sen!2ssi!4v1675096574131!5m2!1sen!2ssi"
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.123423918016!2d13.727554076184523!3d45.547842627854116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477b689434fc60a7%3A0x407999829d796789!2sTrg%20Brolo%2012%2C%206000%20Koper%20-%20Capodistria!5e0!3m2!1sen!2ssi!4v1707064713030!5m2!1sen!2ssi"
                                             width="100%"
                                             height= "500"
                                             style={{border: "0.5"}}
@@ -148,31 +148,8 @@ function Contact() {
 
                                                 <h2>Contact Us </h2>
                                                 <div className="container-form">
-                                                    <div className="container-text">
-                                                        <form>
-                                                            <div className="form-group">
-                                                                <label htmlFor="exampleInputEmail1">Name</label>
-                                                                <input type="text" required className="form-control"
-                                                                       id="name" name='name' onChange={(e)=>setName(e.target.value)}/>
-                                                            </div>
-                                                            <div className="form-group">
-                                                                <label htmlFor="email">Email
-                                                                    address</label>
-                                                                <input type="email" required name='email' onChange={(e)=>setEmail(e.target.value)} className="form-control"
-                                                                       id="email"
-                                                                       placeholder="Enter email"/>
-                                                                <small id="emailHelp" className="form-text text-muted">We'll
-                                                                    never
-                                                                    share your email with anyone else.</small>
-                                                            </div>
-                                                            <div className="form-group mt-1">
-                                                                <label htmlFor='message'>Message</label>
-                                                                <textarea rows={4} required onChange={(e)=>setMessage(e.target.value)} name='message' id="message"/>
-                                                            </div>
-                                                            <button type="submit" onClick={(e)=>{handleSubmit(e)}} className="btn btn-primary">Submit
-                                                            </button>
-                                                        </form>
-                                                    </div>
+                                                    <p>Do you have any questions or suggestions? Feel free to <a href="mailto:info@esn-primorska.si">contact</a> us!</p>
+                                                    <a href="mailto:info@esn-primorska.si" />
                                                 </div>
 
                                             </div>
