@@ -3,5 +3,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/example/public_html/
+    - export DEPLOYPATH=/ESN
     - /bin/cp -R images $DEPLOYPATH

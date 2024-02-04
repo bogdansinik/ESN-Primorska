@@ -7,9 +7,9 @@ import koper1 from "../../public/images/koper1.jpg";
 import koper2 from "../../public/images/koper2.jpg";
 import koper3 from "../../public/images/koper3.jpg";
 import koper4 from "../../public/images/koper4.jpg";
-// import izola1 from "../../public/images/izola1.jpeg";
-// import izola2 from "../../public/images/izola2.jpeg";
-// import izola3 from "../../public/images/izola3.jpeg";
+import izola1 from "../../public/images/izola1.jpeg";
+import izola2 from "../../public/images/izola2.jpeg";
+import izola3 from "../../public/images/izola3.jpeg";
 import piran1 from "../../public/images/piran1.jpg";
 import piran2 from "../../public/images/piran2.jpg";
 import piran3 from "../../public/images/piran3.jpg";
@@ -245,15 +245,15 @@ function AboutPrimorska() {
                                         >
 
                                             <SwiperSlide>
-                                                <Image alt="" src={koper1} />
+                                                <Image alt="" src={izola1} />
                                             </SwiperSlide>
 
                                             <SwiperSlide>
-                                                <Image alt="" src={koper2} />
+                                                <Image alt="" src={izola2} />
                                             </SwiperSlide>
 
                                             <SwiperSlide>
-                                                <Image alt="" src={koper3} />
+                                                <Image alt="" src={izola3} />
                                             </SwiperSlide>
 
 
