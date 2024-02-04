@@ -1,0 +1,11 @@
+{
+  "locales": [
+    "en-US",
+    "si"
+  ],
+  "defaultLocale": "en-US",
+  "localeDetection": false,
+  "pages": {
+    "*": ["common", "news"]
+  }
+}

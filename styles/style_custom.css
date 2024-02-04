@@ -1,0 +1,385 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.j-r {
+    justify-content: right;
+}
+
+.inputStyle {
+    background: transparent;
+    border: 1px solid white;
+    padding: 10px 20px;
+}
+
+.buttonStyle {
+    background-color: #00aeef;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.buttonStyle:hover {
+    background-color: #FFFFFF;
+    color: #00aeef;
+    cursor: pointer;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.mainMenu ul li ul {
+    min-height: 35px !important;
+}
+
+.breadcrumb1 {
+    background: url('/images/breadcrumbs1.jpg') 50% 50% no-repeat fixed
+}
+
+.aboutus-breadcrumb {
+    /*background: url('/images/aboutus.jpg') 50% 50% no-repeat fixed*/
+    background: url('/images/aboutus1.JPG') 50% 100% no-repeat fixed
+}
+
+.aboutesn-breadcrumb {
+    background: url('/images/MAP_ESN_candidate_RGB_white.png') 50% 60% no-repeat fixed
+}
+
+.aboutprimorska-breadcrumb {
+    background: url('/images/joze&vino.jpg') 50% 60% no-repeat fixed
+}
+
+.aboutUP-breadcrumb {
+    background: url('/images/aboutUp.jpeg') 50% 60% no-repeat fixed
+}
+
+.beforearrival-breadcrumb {
+    background: url('/images/beforearrival.jpg') 50% 50% no-repeat fixed
+}
+
+.buddy-breadcrumb {
+    background: url('/images/buddyimg.jpg') 50% 25% no-repeat fixed
+}
+
+.duringmobility-breadcrumb {
+    background: url('/images/duringmobility.jpg') 50% 70% no-repeat fixed
+}
+
+.preparation-breadcrumb {
+    background: url('/images/preparation.jpg') 50% 60% no-repeat fixed
+}
+
+.getBuddy-breadcrumb {
+    background: url('/images/getabuddy.jpg') 50% 50% no-repeat fixed
+}
+
+.becomeBuddy-breadcrumb {
+    background: url('/images/becomeabuddy.jpg') 50% 50% no-repeat fixed
+}
+
+.backfromexchange-breadcrumb {
+    background: url('/images/backfromexchange.jpg') 50% 60% no-repeat fixed
+}
+
+.events-breadcrumb {
+    background: url('/images/events.jpg') 50% 50% no-repeat fixed
+}
+
+.trips-breadcrumb {
+    background: url('/images/slovenia_trip/IMG_2791.JPG') 50% 60% no-repeat fixed
+}
+
+.esncard-breadcrumb {
+    background: url('/images/card/cover.png') 50% 60% no-repeat fixed
+}
+
+.partners-breadcrumb {
+    background: url('/images/partners/cover.png') 50% 60% no-repeat fixed
+}
+
+.contact-breadcrumb {
+    background: url('/images/contact.jpg') 50% 60% no-repeat fixed
+}
+
+.calendar-breadcrumb {
+    background: url('/images/calendar.png') 50% 50% no-repeat fixed
+}
+
+.faq-breadcrumb {
+    background: url('/images/faq.webp') 50% 50% no-repeat fixed
+}
+
+.events1 {
+    background: url('/images/events1.jpg') 50% 80% no-repeat fixed
+}
+
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.tutorial ul {
+    font-size: 0;
+    list-style-type: none;
+    width: 70px;
+}
+
+.tutorial ul li {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #333;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.tutorial ul li ul {
+    display: none;
+    border: 2px solid #e0e0e0;
+}
+
+.tutorial ul li:hover {
+    cursor: pointer;
+}
+
+.tutorial ul li:hover ul {
+    display: block;
+    margin-top: 10px;
+    width: 55px;
+    left: 0;
+    position: absolute;
+    z-index: 1000;
+}
+
+.tutorial ul li:hover ul li {
+    display: block;
+    background-color: #e7e7e7;
+}
+
+.tutorial ul li:hover ul li span {
+    float: right;
+    color: #f9f9f9;
+    background-color: #ec008c;
+    padding: 2px 5px;
+    text-align: center;
+    font-size: 0.8rem;
+    border-radius: 3px;
+}
+
+.tutorial ul li:hover ul li:hover {
+    background-color: #e0e0e0;
+}
+
+.tutorial ul li:hover ul li:hover span {
+    background-color: #ec008c;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-inline {
+    display: inline;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.headerWrap .logo {
+    width: 185px !important;
+    margin-top: 42px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.m-bt-100 {
+    margin-bottom: 250px;
+    margin-top: 250px;
+}
+
+
+.contact-container {
+    background-color: #fff;
+    width: 600px;
+    height: 450px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    line-height: 1.5;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.185);
+}
+
+.contact-container::after {
+    content: "";
+    position: absolute;
+    background-image: linear-gradient(to bottom right, #ff9ec4, #ffd07e);
+    width: 900px;
+    height: 900px;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.container-form img {
+    width: 250px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.container-text h2 {
+    font-size: 1.2rem;
+    color: #1a2250;
+}
+
+.container-text p {
+    font-size: 14px;
+    color: #3b4169;
+    margin: 10px 0;
+}
+
+.container-text input,
+.container-text button {
+    width: 100%;
+    border: none;
+    padding: 14px;
+    border-radius: 3px;
+}
+
+.container-text input {
+    border: 2px solid #daddec;
+    margin: 5px 0 10px;
+    font-size: 1rem;
+    color: #656880;
+}
+
+.container-text textarea {
+    width: 100%;
+    max-width: 100%;
+    padding: 14px;
+    border: 2px solid #daddec;
+    margin: 5px 0 10px;
+    font-size: 1rem;
+    color: #656880;
+}
+
+.container-text button {
+    background-image: linear-gradient(to right, #89caff, #6589ff);
+    display: block;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 5px 20px #89caff94;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.container-text button:hover {
+    box-shadow: none;
+}
+
+.container-text span {
+    display: block;
+    text-align: center;
+    margin: 20px 0 0;
+    color: #babdcb;
+    font-size: 12px;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.mt-5 {
+    margin-top: 5rem;
+}
+
+.mt-7 {
+    margin-top: 7rem;
+}
+
+.homeNewsItem:first-child .homeNewsImage {
+    width: 100%;
+}
+
+.container1 {
+    padding: 0 !important;
+}
+
+.responsive-cell-block {
+    margin: 0 !important;
+}
+
+.responsive-cell-block .card {
+    margin: 0 5px 15px;
+}
+
+.mainMenu ul li:last-of-type ul {
+    left: -80px;
+}
+
+.mainMenu ul li:last-of-type ul li {
+    width: 200px;
+}
+
+@media only screen and (max-width: 1400px) {
+
+    .mainMenu ul li a {
+        padding: 0 20px;
+    }
+
+}
+
+@media only screen and (max-width: 1290px) {
+
+    .mainMenu ul li a {
+        padding: 0 15px;
+    }
+
+    .headerRightBottom .menuWrap .mainMenu {
+        margin-right: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 1220px) {
+
+    .mainMenu ul li a {
+        padding: 0 10px;
+    }
+
+    .sML {
+        width: 167px;
+    }
+
+
+    .donateButton p a {
+        padding: 0 30px;
+    }
+
+}
+
+@media only screen and (max-width: 1140px) {
+
+    .logo img {
+        max-width: 100px !important;
+        margin-top: 0px!important;
+    }
+
+}
