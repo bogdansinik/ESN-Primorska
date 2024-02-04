@@ -73,7 +73,7 @@ function IndexGallery() {
                                                         <div className="blockContents">
                                                             <div className="mwBtnLeft">
                                                                 <div className="button whiteborder">
-                                                                    <p><a href="#" className="medium">All programs</a>
+                                                                    <p><a href="/calendar" className="medium">Our programs</a>
                                                                     </p>
                                                                 </div>
                                                             </div>

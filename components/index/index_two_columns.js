@@ -55,7 +55,7 @@ function IndexTwoColumns() {
                                                         <div className="blockContents">
                                                             <div className="mwBtnLeft">
                                                                 <div className="button whiteborder">
-                                                                    <p><a href="#" className="medium">Learn More</a></p>
+                                                                    <p><a href="/exchange_preparation" className="medium">Learn More</a></p>
                                                                 </div>
                                                             </div>
                                                         </div>

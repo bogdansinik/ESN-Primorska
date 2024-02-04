@@ -29,7 +29,7 @@ function About() {
                                                         <div className="blockContents">
                                                             <div className="mwBtnLeft">
                                                                 <div className="button purpleborder">
-                                                                    <p><a href="#" className="medium">Learn
+                                                                    <p><a href="/about" className="medium">Learn
                                                                         More</a></p>
                                                                 </div>
                                                             </div>
