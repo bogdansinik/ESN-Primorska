@@ -100,11 +100,7 @@ function About() {
                                                 <div className="blockContents">
 
                                                     <p>
-                                                        We are a student organization based in Primorska, Slovenia and
-                                                        our mission is to
-                                                        guide, advise, help and make international student's stay at the
-                                                        University of
-                                                        Primorska unforgettably amazing!
+                                                    We are a student organization located in Primorska, the coastal region of Slovenia. Our mission is to guide, advise, and assist international students, ensuring their time at the University of Primorska is truly unforgettable!
                                                     </p>
                                                     <p>
                                                         We plan events for both Erasmus students and regular students
@@ -129,7 +125,7 @@ function About() {
                                                     </h2>
 
                                                     <p>Before becoming ESN Primorska, we were known as Primorska
-                                                        Student Exchange Network-PSEN.
+                                                        Student Exchange Network - PSEN.
                                                         We started off with 4 students with a vision and a stuffed goat
                                                         named Joze, and built the team and organization
                                                         from the ground up with great support provided by the University
