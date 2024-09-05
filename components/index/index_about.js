@@ -46,9 +46,9 @@ function About() {
 
 
                                                                 {/*<Image src="/images/about.jpg"*/}
-                                                                <Image src="/images/home/test1.png"
+                                                                <Image src="/images/home/about-image.png"
                                                                      className="mwFile Image full imgEd"
-                                                                     height={595} width={765.67} alt="about-image"/>
+                                                                     height={1300} width={2000} alt="about-image"/>
                                                             </div>
 
                                                         </div>

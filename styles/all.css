@@ -4491,8 +4491,9 @@ ul.areas li:before {
 .homeTBCol.a {
     /*background: #136789 url(/images/3tb_a.png) bottom right no-repeat;*/
     /*background: #136789 url(/images/home/test2.png) bottom right no-repeat;*/
-    background: #00aeef url(/images/home/test2.png) 23% 90% no-repeat;
+    background: #00aeef url(/images/home/test2.png) 25% 60% no-repeat;
     height: 460px;
+    background-size: 100% 110%;
 }
 
 .homeTBCol.a:hover {
@@ -4500,14 +4501,14 @@ ul.areas li:before {
 }
 
 .homeTBCol.b {
-    /*background: #8b0051 url(/images/3tb_b.png) center center no-repeat;*/
-    background: #ec008c url(/images/home/test3.png) 30% 50% no-repeat;
+    background: #ec008c url(/images/home/buddy-home.png) 0% 50% no-repeat;
+    background-size: 140% 155%;
 }
 
-@media (max-width: 768) {
+@media (max-width: 200) {
 
     .homeTBCol.b {
-        background: #ec008c url(/images/home/test3.png) center no-repeat;
+        background: #ec008c url(/images/home/buddy-home.png) center no-repeat;
     }
 }
 
@@ -4614,7 +4615,7 @@ ul.areas li:before {
 }
 
 .program1{
-    background: url(/images/home/events1.jpeg) center center no-repeat;
+    background: url(/images/home/events1.jpg) center center no-repeat;
 }
 
 .program2{
@@ -4945,7 +4946,8 @@ ul.areas li:before {
 
 
 .homeVolunteerWrap {
-    background: #00aeef url(/images/international.png) left bottom no-repeat;
+    background: #00aeef url(/images/international.png) 90% 120% no-repeat;
+    background-size: 120%;
     height: 650px;
     position: relative
 }
@@ -4963,7 +4965,8 @@ ul.areas li:before {
 
 
 .homeEmploymentWrap {
-    background: #ec008c url(/images/local.png) right bottom no-repeat;
+    background: #ec008c url(/images/local.png)  30% 120% no-repeat;
+    background-size: 120%;
     height: 650px;
     position: relative
 }

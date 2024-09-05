@@ -69,34 +69,13 @@ function Slider() {
                                         <div className="captionInner">
                                             <h3>Jože Primorec</h3>
                                             <p>The heart-stealer of our team</p>
-                                            <div className="button">
+                                            {/* <div className="button">
                                                 <p><a href="#">Meet Jože</a></p>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
-                            <div className="sliderItem">
-                                <div className="sliderItemImage"
-                                     style={{
-                                         background: 'url(/images/slider33.JPG) center center no-repeat',
-                                         backgroundSize: 'cover'
-                                     }}>
-                                </div>
-                                <div className="caption">
-                                    <div className="captionContainer">
-                                        <div className="captionInner">
-                                            <h3>Jožefying</h3>
-                                            <p>Welcome to the exciting world of ESN Primorska!</p>
-                                            <div className="button">
-                                                <p><a href="#">Learn More</a></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
                         </div>
                     </div>
                 </div>
