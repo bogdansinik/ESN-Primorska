@@ -148,7 +148,7 @@ function Contact() {
 
                                                 <h2>Contact Us </h2>
                                                 <div className="container-form">
-                                                    <p>Do you have any questions or suggestions? Feel free to <a href="mailto:info@esn-primorska.si">contact</a> us!</p>
+                                                    <p>Do you have any questions or suggestions? Feel free to <a href="mailto:info@esn-primorska.si, primorska.exchange@upr.si">contact</a> us!</p>
                                                     <a href="mailto:info@esn-primorska.si" />
                                                 </div>
 
