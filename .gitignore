@@ -49,3 +49,5 @@ yarn-error.log*
 .next/static/chunks/webpack.js
 .next/static/development/_buildManifest.js
 ESN.zip
+
+.idea
