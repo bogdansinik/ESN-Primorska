@@ -106,6 +106,12 @@ function AboutUp() {
                                                 <p>
                                                     As an interdisciplinary organization, we bring together businesses and other institutions to foster collaboration and innovation.
                                                 </p>
+                                                <p>
+                                                To enhance your learning experience and make the material easier to understand, we have developed a <a href="https://www.famnit.upr.si/en/education/tutoring-system">tutoring system</a>. Here, you can connect with a tutor who will provide guidance to help you gain knowledge more effectively.
+                                                </p>
+                                                <p>
+                                                    Besides ERASMUS+ University of Primorska is member of <a href="https://transform4europe.eu" target="_blank">T4EU</a> alliance.
+                                                </p>
                                             </div>
                                         </div>
 

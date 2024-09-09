@@ -4,10 +4,10 @@ import Link from "next/link";
 import placeholder from '../../public/images/placeholder.jpg';
 import Joze from '../../public/images/psen_logo.png';
 import Emilija from '../../public/images/emilija.jpg';
-import Miloje from '../../public/images/miloje.jpeg';
-import Lana from '../../public/images/lana.jpeg';
+import Dunja from '../../public/images/miloje.jpeg';
+import Doris from '../../public/images/lana.jpeg';
 import Jovana from '../../public/images/jovana.jpeg';
-import Aleksa from '../../public/images/aleksa.jpeg';
+import Natalija from '../../public/images/aleksa.jpeg';
 import Jelena from '../../public/images/jelena.jpeg';
 function About() {
 
@@ -205,10 +205,10 @@ function About() {
                                                                 <div className="card">
                                                                     <div className="team-image-wrapper">
                                                                         <Image alt="" className="team-member-image"
-                                                                               src={Jelena}/>
+                                                                               src={Emilija}/>
                                                                     </div>
                                                                     <p style={{textAlign: "center"}} className="text-blk name">
-                                                                        Jelena<br/>Pilipović
+                                                                        Emilija<br/>Toth
                                                                     </p>
                                                                     <p className="text-blk position">
                                                                         President
@@ -229,10 +229,10 @@ function About() {
                                                                 <div className="card">
                                                                     <div className="team-image-wrapper">
                                                                         <Image alt="" className="team-member-image"
-                                                                               src={Miloje}/>
+                                                                               src={Dunja}/>
                                                                     </div>
                                                                     <p style={{textAlign: "center"}} className="text-blk name">
-                                                                        Miloje<br/>Vacić
+                                                                        Dunja<br/>Kostić
                                                                     </p>
                                                                     <p className="text-blk position">
                                                                         Vice President
@@ -253,10 +253,10 @@ function About() {
                                                                 <div className="card">
                                                                     <div className="team-image-wrapper">
                                                                         <Image alt="" className="team-member-image"
-                                                                               src={Aleksa}/>
+                                                                               src={Natalija}/>
                                                                     </div>
                                                                     <p style={{textAlign: "center"}} className="text-blk name">
-                                                                        Aleksa<br/>Đorđević
+                                                                        Natalija<br/>Tashkova
                                                                     </p>
                                                                     <p className="text-blk position">
                                                                         Treasurer
@@ -277,10 +277,10 @@ function About() {
                                                                 <div className="card">
                                                                     <div className="team-image-wrapper">
                                                                         <Image alt="" className="team-member-image"
-                                                                               src={Lana}/>
+                                                                               src={Doris}/>
                                                                     </div>
                                                                     <p style={{textAlign: "center"}} className="text-blk name">
-                                                                        Lana<br/>Jurišić
+                                                                        Doris<br/>Mujić
                                                                     </p>
                                                                     <p className="text-blk position">
                                                                         PR Coordinator
@@ -297,14 +297,14 @@ function About() {
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                                                            {/* <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
                                                                 <div className="card">
                                                                     <div className="team-image-wrapper">
                                                                         <Image alt="" className="team-member-image"
-                                                                               src={Emilija}/>
+                                                                               src={Skenda}/>
                                                                     </div>
                                                                     <p style={{textAlign: "center"}} className="text-blk name">
-                                                                        Emilija<br/>Toth
+                                                                        Aleksa<br/>Skenderija
                                                                     </p>
                                                                     <p className="text-blk position">
                                                                         Event Coordinator
@@ -317,10 +317,10 @@ function About() {
                                                                         {/* <a href="#"
                                                                            style={{fontSize:"large"}}>
                                                                             <span className="fab fa-LinkedIn"/>
-                                                                        </a> */}
+                                                                        </a> 
                                                                     </div>
                                                                 </div>
-                                                            </div>
+                                                            </div> */}
                                                            
                                                             <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
                                                                 <div className="card">

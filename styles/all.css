@@ -4946,7 +4946,7 @@ ul.areas li:before {
 
 
 .homeVolunteerWrap {
-    background: #00aeef url(/images/international.png) 90% 120% no-repeat;
+    background: #00aeef url(/images/international.png) 100% 90% no-repeat;
     background-size: 120%;
     height: 650px;
     position: relative
@@ -4965,7 +4965,7 @@ ul.areas li:before {
 
 
 .homeEmploymentWrap {
-    background: #ec008c url(/images/local.png)  30% 120% no-repeat;
+    background: #ec008c url(/images/local.png)  10% 90% no-repeat;
     background-size: 120%;
     height: 650px;
     position: relative

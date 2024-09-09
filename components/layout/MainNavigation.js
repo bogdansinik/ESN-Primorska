@@ -184,10 +184,10 @@ function MainNavigation(props) {
                                                 <ul>
                                                     <li className="no-children"><a><span className="Title"><div
                                                         className="navIcon2"></div></span></a></li>
-                                                    <li className="no-children">
+                                                    {/* <li className="no-children">
                                                         <Link href='/news'><a><span
                                                             className="Title">News</span></a></Link>
-                                                    </li>
+                                                    </li> */}
                                                     <li className="no-children">
                                                         <Link href='/events'><a><span
                                                             className="Title">Events</span></a></Link>

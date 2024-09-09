@@ -43,11 +43,11 @@ html {
 
 .aboutus-breadcrumb {
     /*background: url('/images/aboutus.jpg') 50% 50% no-repeat fixed*/
-    background: url('/images/aboutus1.JPG') 50% 100% no-repeat fixed
+    background: url('/images/about-us.jpg') 0% 50% no-repeat fixed
 }
 
 .aboutesn-breadcrumb {
-    background: url('/images/MAP_ESN_candidate_RGB_white.png') 50% 60% no-repeat fixed
+    background: url('/images/MAP_ESN_candidate_RGB_white.png') 0% 100% no-repeat fixed
 }
 
 .aboutprimorska-breadcrumb {
@@ -111,7 +111,7 @@ html {
 }
 
 .faq-breadcrumb {
-    background: url('/images/faq.webp') 50% 50% no-repeat fixed
+    background: url('/images/faq.webp')70% 100% no-repeat fixed
 }
 
 .events1 {
