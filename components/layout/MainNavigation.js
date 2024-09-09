@@ -48,7 +48,7 @@ function MainNavigation(props) {
                         </div>*/}
 
                         <div className="sML">
-                            <a href="https://www.facebook.com/primorska.exchange/" target="_blank" rel="noreferrer">
+                            <a href="https://www.facebook.com/primorska.esn/" target="_blank" rel="noreferrer">
                                 <span className="fab fa-facebook"/>
                             </a>
                             &nbsp;
