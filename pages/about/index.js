@@ -4,10 +4,10 @@ import Link from "next/link";
 import placeholder from '../../public/images/placeholder.jpg';
 import Joze from '../../public/images/psen_logo.png';
 import Emilija from '../../public/images/emilija.jpg';
-import Dunja from '../../public/images/miloje.jpeg';
-import Doris from '../../public/images/lana.jpeg';
-import Jovana from '../../public/images/jovana.jpeg';
-import Natalija from '../../public/images/aleksa.jpeg';
+import Dunja from '../../public/images/dunja.png';
+import Doris from '../../public/images/doris.png';
+import Jovana from '../../public/images/jovana.png';
+import Natalija from '../../public/images/natalija.png';
 import Jelena from '../../public/images/jelena.jpeg';
 function About() {
 
