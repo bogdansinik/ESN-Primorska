@@ -29,6 +29,17 @@ import image14 from '../../public/images/events14.jpeg'
 import image15 from '../../public/images/events15.jpeg'
 import image16 from '../../public/images/events16.jpeg'
 
+import pubquiz1 from '../../public/images/pubquiz1.jpg'
+import pubquiz2 from '../../public/images/pubquiz2.jpg'
+import pubquiz3 from '../../public/images/pubquiz3.jpg'
+import pubcrawl1 from '../../public/images/pubcrawl1.jpeg'
+import pubcrawl2 from '../../public/images/pubcrawl2.jpeg'
+import pubcrawl3 from '../../public/images/pubcrawl3.jpeg'
+import pubcrawl4 from '../../public/images/pubcrawl4.jpeg'
+
+import wineandpaint1 from '../../public/images/wineandpaint1.jpeg'
+import wineandpaint2 from '../../public/images/wineandpaint2.jpeg'
+import wineandpaint3 from '../../public/images/wineandpaint3.jpeg'
 
 function Events() {
 
@@ -321,8 +332,74 @@ function Events() {
 
                                         </Swiper>
 
+                                        <h3>Wine and Paint</h3>
+
+                                            <p> The Wine and Paint event offers Erasmus students a chance to unwind and unleash their creativity in a relaxed, social setting. We provide all the painting materials needed, along with a selection of wine to enjoy as participants create their own works of art. With a calm, artistic atmosphere, students can express themselves freely, whether they’re seasoned painters or just looking to have fun. It’s the perfect event for those seeking to socialize in a more laid-back, creative environment, where everyone can enjoy both the painting process and the shared experience with fellow students.</p>
+
+                                            <Swiper
+                                                slidesPerView={1}
+                                                spaceBetween={30}
+                                                keyboard={{
+                                                    enabled: true,
+                                                }}
+                                                pagination={{
+                                                    clickable: true,
+                                                }}
+                                                navigation={true}
+                                                modules={[Keyboard, Pagination, Navigation]}
+                                                className="mySwiper"
+                                            >
+
+                                                <SwiperSlide>
+                                                    <Image src={wineandpaint1} />
+                                                </SwiperSlide>
+
+                                                <SwiperSlide>
+                                                    <Image src={wineandpaint2} />
+                                                </SwiperSlide>
+
+
+                                                <SwiperSlide>
+                                                    <Image src={wineandpaint3} />
+                                                </SwiperSlide>
+
+
+                                            </Swiper>
+
+                                        <h3>Pub Quiz</h3>
+
+                                            <p> The Erasmus Pub Quiz is a popular event that brings students together for an evening of trivia, fun, and friendly competition. Participants are divided into teams and face a variety of quiz rounds, covering topics from general knowledge and pop culture to local facts and Erasmus experiences. Teamwork is essential as students collaborate to answer questions, earn points, and vie for the title of quiz champions. The event offers a perfect balance of entertainment and socializing, with prizes awarded to the top teams and plenty of laughs shared throughout the night. It’s a fantastic way for Erasmus students to bond and test their knowledge in a relaxed and lively atmosphere.</p>
+                                            <Swiper
+                                            slidesPerView={1}
+                                            spaceBetween={30}
+                                            keyboard={{
+                                                enabled: true,
+                                            }}
+                                            pagination={{
+                                                clickable: true,
+                                            }}
+                                            navigation={true}
+                                            modules={[Keyboard, Pagination, Navigation]}
+                                            className="mySwiper"
+                                        >
+
+                                            <SwiperSlide>
+                                                <Image src={pubquiz1} />
+                                            </SwiperSlide>
+
+                                            <SwiperSlide>
+                                                <Image src={pubquiz2} />
+                                            </SwiperSlide>
+
+                                            <SwiperSlide>
+                                                <Image src={pubquiz3} />
+                                            </SwiperSlide>
+                                        </Swiper>
+
 
                                     </div>
+
+                                    
 
                                     <div className="mwPageBlock Content">
                                         <div id="parties" className="blockContents">
@@ -389,6 +466,8 @@ function Events() {
                                                 members, so
                                                 don't hesitate to get up on the stage and amaze us for with your
                                                 skills! </p>
+
+                                                
                                         </div>
                                     </div>
                                     <Swiper
@@ -419,7 +498,40 @@ function Events() {
 
 
                                     </Swiper>
+                                    <h3>Pub Crawl</h3>
 
+                                        <p> The Pub Crawl is undeniably a favorite among Erasmus students, offering an exciting opportunity to explore various pubs while completing fun challenges along the way. In each pub, teams face different tasks, earning points based on their success. The more tasks they accomplish, the higher their score, fostering teamwork and a competitive spirit. The goal is to outscore the competition and win special prizes. The evening typically concludes with a lively party, making it a memorable social experience for all participants!
+                                        </p>
+                                        <Swiper
+                                            slidesPerView={1}
+                                            spaceBetween={30}
+                                            keyboard={{
+                                                enabled: true,
+                                            }}
+                                            pagination={{
+                                                clickable: true,
+                                            }}
+                                            navigation={true}
+                                            modules={[Keyboard, Pagination, Navigation]}
+                                            className="mySwiper"
+                                        >
+
+                                            <SwiperSlide>
+                                                <Image src={pubcrawl1} />
+                                            </SwiperSlide>
+
+                                            <SwiperSlide>
+                                                <Image src={pubcrawl2} />
+                                            </SwiperSlide>
+
+                                            <SwiperSlide>
+                                                <Image src={pubcrawl3} />
+                                            </SwiperSlide>
+                                            
+                                            <SwiperSlide>
+                                                <Image src={pubcrawl4} />
+                                            </SwiperSlide>
+                                        </Swiper>
                                 </div>
                             </div>
 
