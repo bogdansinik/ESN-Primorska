@@ -4493,7 +4493,7 @@ ul.areas li:before {
     /*background: #136789 url(/images/home/test2.png) bottom right no-repeat;*/
     background: #00aeef url(/images/home/test2.png) 25% 60% no-repeat;
     height: 460px;
-    background-size: 100% 110%;
+    /*background-size: 100% 110%;*/
 }
 
 .homeTBCol.a:hover {
@@ -4501,8 +4501,9 @@ ul.areas li:before {
 }
 
 .homeTBCol.b {
-    background: #ec008c url(/images/home/buddy-home.png) 0% 50% no-repeat;
-    background-size: 140% 155%;
+    background: #ec008c url(/images/home/buddy-home.png) 50% 60% no-repeat;
+    background-size: auto 135%;
+    /*background-size: 140% 155%;*/
 }
 
 @media (max-width: 200) {
