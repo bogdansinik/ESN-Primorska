@@ -4988,13 +4988,13 @@ ul.areas li:before {
     .homeVolunteerWrap {
         height: 450px;
         position: relative;
-        background-size: 60%;
+        /*background-size: 60%;*/
     }
 
     .homeEmploymentWrap {
         height: 450px;
         position: relative;
-        background-size: 60%;
+        /*background-size: 60%;*/
     }
 
     .homeVolunteer {
