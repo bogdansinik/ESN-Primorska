@@ -41,6 +41,9 @@ import wineandpaint1 from '../../public/images/wineandpaint1.jpeg'
 import wineandpaint2 from '../../public/images/wineandpaint2.jpeg'
 import wineandpaint3 from '../../public/images/wineandpaint3.jpeg'
 
+import gamenight1 from '../../public/images/gamenight1.jpeg'
+import gamenight2 from '../../public/images/gamenight2.jpeg'
+import gamenight3 from '../../public/images/gamenight3.jpeg'
 function Events() {
 
     useEffect(() => {
@@ -332,6 +335,40 @@ function Events() {
 
                                         </Swiper>
 
+                                        <h3>Game Night</h3>
+
+                                            <p>The Game Night event is a fun-filled evening where Erasmus students come together to enjoy a variety of board games and video games. Whether you’re into strategic classics or fast-paced video game action, there’s something for everyone. The event creates a lively and social environment where students can team up or go head-to-head in different games, fostering friendly competition and lots of laughter. It’s a perfect way to relax, meet new people, and share in the excitement of gaming, making it an unforgettable night of fun and connection for all involved. </p>
+                                            <Swiper
+                                            slidesPerView={1}
+                                            spaceBetween={30}
+                                            keyboard={{
+                                                enabled: true,
+                                            }}
+                                            pagination={{
+                                                clickable: true,
+                                            }}
+                                            navigation={true}
+                                            modules={[Keyboard, Pagination, Navigation]}
+                                            className="mySwiper"
+                                        >
+
+                                            <SwiperSlide>
+                                                <Image src={gamenight1} />
+                                            </SwiperSlide>
+
+                                            <SwiperSlide>
+                                                <Image src={gamenight2} />
+                                            </SwiperSlide>
+
+                                            <SwiperSlide>
+                                                <Image src={gamenight3} />
+                                            </SwiperSlide>
+
+                                        </Swiper>
+
+                                      
+
+                                      
                                         <h3>Wine and Paint</h3>
 
                                             <p> The Wine and Paint event offers Erasmus students a chance to unwind and unleash their creativity in a relaxed, social setting. We provide all the painting materials needed, along with a selection of wine to enjoy as participants create their own works of art. With a calm, artistic atmosphere, students can express themselves freely, whether they’re seasoned painters or just looking to have fun. It’s the perfect event for those seeking to socialize in a more laid-back, creative environment, where everyone can enjoy both the painting process and the shared experience with fellow students.</p>
@@ -365,6 +402,7 @@ function Events() {
 
 
                                             </Swiper>
+
 
                                         <h3>Pub Quiz</h3>
 
