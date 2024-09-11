@@ -4540,8 +4540,9 @@ ul.areas li:before {
 }
 
 .homeTBCol.c {
-    /*background: #7AC143 url(/images/ESNcard_floating.png) bottom right no-repeat;*/
-    background: #7ac143 url(/images/home/ESNcard_floating.png) bottom right no-repeat;
+    background: #7ac143 url(/images/home/ESNcard_floating.png) no-repeat;
+    background-position: center;
+    background-size: 100%; /* or contain, depending on the effect you want */
 }
 
 .homeTBCol.c:hover {
