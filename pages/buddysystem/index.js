@@ -158,16 +158,19 @@ function BuddySystem() {
 
                                         <div id="wYZ4EU4HMY790NHA" className="mwPageBlock Content">
                                             <div className="blockContents">
-                                                <p>Each exchange student needs to apply for a student buddy through 
-                                                    the Papaya application before their arrival (approx. one month 
-                                                    before their arrival). When the application is received, the 
+                                                <p>Each exchange student needs to apply for a student buddy through
+                                                    the <a href={"https://papaya.iter-idea.com/auth"}> Papaya
+                                                        application </a>
+                                                    before their arrival (approx. one month
+                                                    before their arrival). When the application is received, the
                                                     student is matched to a buddy according to the interests they
-                                                    have in common (faculty, language, hobbies…). Once the match is made, 
+                                                    have in common (faculty, language, hobbies…). Once the match is
+                                                    made,
                                                     the buddy will be notified of the match
                                                     via email from Papaya, from that point on, they can finally reach
                                                     out to the exchange student, introduce themselves and offer their
                                                     help! </p>
-                                                    
+
                                                 <p> When setting up their profile in the Papaya application, 
                                                     both incoming students and buddies are encouraged to answer optional
                                                     questions about their hobbies and interests. We recommend you enter 
@@ -215,7 +218,8 @@ function BuddySystem() {
                                                 <p>
                                                     Whether you are an exchange student that is arriving to the coast
                                                     soon or a student that is living on the coast and wants to join 
-                                                    our network, make sure to apply via the Papaya application!
+                                                    our network, make sure to apply via the
+                                                    <a href={"https://papaya.iter-idea.com/auth"}> Papaya application!</a>
                                                 </p>
 
                                             </div>
