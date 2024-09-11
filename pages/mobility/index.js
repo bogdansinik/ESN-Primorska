@@ -163,8 +163,8 @@ function Mobility() {
                                                 <div className="blockContents" style={{textAlign: "center"}}>
 
                                                     <iframe
-                                                        src="https://www.google.com/maps/d/embed?mid=1h-lieIDRzmC8Ztox56q_elV_i8g&ehbc=2E312F"
-                                                        width="100%" height="480"/>
+                                                        src="https://www.google.com/maps/d/embed?mid=1EkadS6OZt_KCIvSto6MdavrIKau1uFE&ehbc=2E312F&noprof=1"
+                                                        width="640" height="480"></iframe>
 
                                                 </div>
                                             </div>
