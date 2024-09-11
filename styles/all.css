@@ -16,6 +16,24 @@ Powered by http://www.morweb.org
 */
 
 /*  Global  */
+/* h1,h2,h3,h4,h5,h6{
+    font-family: "Papyrus";
+} */
+
+@font-face {
+    font-family: 'Lato';
+    src: url("/fonts/Lato-Regular.ttf") format("truetype");
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Kelson Sans', sans-serif;
+}
+@font-face {
+    font-family: 'Kelson Sans';
+    src: url('/fonts/KelsonSans-Normal.ttf') format('truetype');
+  }
+body, p, div, span, li, ul, ol, a {
+    font-family: 'Lato', sans-serif;
+}
 
 body {
     background: #ffffff;
@@ -141,7 +159,7 @@ a:hover, .toTop:hover {
 
 .utilityMenu ul li a {
     text-decoration: none;
-    font-family: "CachetW05-Medium";
+    /*font-family: "CachetW05-Medium";*/
     color: #414042;
 }
 
@@ -224,7 +242,7 @@ a:hover, .toTop:hover {
 
 .donateButton p {
     padding-bottom: 0;
-    font-family: "CachetW05-Medium";
+    /*font-family: "CachetW05-Medium";*/
 }
 
 .donateButton p a {
@@ -234,7 +252,7 @@ a:hover, .toTop:hover {
     padding: 0px 52px;
     text-transform: uppercase;
     font-size: 20px;
-    font-family: "CachetW05-Book";
+    /* font-family: "CachetW05-Book"; */
     height: 74px;
     line-height: 74px;
     display: block;
@@ -382,7 +400,7 @@ a:hover, .toTop:hover {
     float: left;
     text-decoration: none;
     color: #414042; /* text-transform: uppercase; */
-    font-family: "CachetW05-Book";
+    /* font-family: "CachetW05-Book"; */
     cursor: pointer; /* font-weight: 100; */
 }
 
@@ -683,7 +701,7 @@ a:hover, .toTop:hover {
 
 /* Text */
 .mainContentArea h1, h1 {
-    font-family: "CachetW05-Medium";
+    /*font-family: "CachetW05-Medium";*/
     font-size: 56pt;
     line-height: 44pt;
     letter-spacing: 1px;
@@ -692,7 +710,7 @@ a:hover, .toTop:hover {
 }
 
 .mainContentArea h2, h2 {
-    font-family: "CachetW05-Medium";
+    /*font-family: "CachetW05-Medium";*/
     font-size: 55px;
     line-height: 55px;
     letter-spacing: .5px;
@@ -702,7 +720,7 @@ a:hover, .toTop:hover {
 }
 
 .mainContentArea h3, h3 {
-    font-family: "CachetW05-Medium";
+    /*font-family: "CachetW05-Medium";*/
     font-size: 25pt;
     line-height: 25pt;
     letter-spacing: .5px;
@@ -711,7 +729,7 @@ a:hover, .toTop:hover {
 }
 
 .mainContentArea h4, h4 {
-    font-family: "CachetW05-Medium";
+    /*font-family: "CachetW05-Medium";*/
     font-size: 35px;
     line-height: 34pt;
     margin: 15px 0;
@@ -720,7 +738,7 @@ a:hover, .toTop:hover {
 }
 
 .mainContentArea h5, h5 {
-    font-family: "CachetW05-Medium";
+    /*font-family: "CachetW05-Medium";*/
     font-size: 14pt;
     line-height: 20pt;
     margin: 15px 0;
@@ -728,7 +746,7 @@ a:hover, .toTop:hover {
 }
 
 .mainContentArea h6, h6 {
-    font-family: "CachetW05-Medium";
+    /*font-family: "CachetW05-Medium";*/
     font-size: 11pt;
     line-height: 16pt;
     margin: 10px 0;
@@ -740,8 +758,8 @@ a:hover, .toTop:hover {
 }
 
 .mainContentArea p {
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 11pt;
+    /* font-family: Verdana, Geneva, sans-serif; */
+    font-size: 12pt;
     line-height: 16pt;
     margin: 15px 0;
     color: #636466;
@@ -779,7 +797,7 @@ a:hover, .toTop:hover {
     padding: 0 0 10px 20px;
     color: #636466;
     font-weight: 400;
-    font-family: "CachetW05-Medium";
+    /*font-family: "CachetW05-Medium";*/
 }
 
 .mainContentArea ul li:before { /* circle bullet */
@@ -803,7 +821,7 @@ a:hover, .toTop:hover {
 }
 
 .mainContentArea ol li {
-    font-family: "CachetW05-Medium";
+    /*font-family: "CachetW05-Medium";*/
     color: #ec008c;
     display: block;
     padding: 0 0 10px;
@@ -839,7 +857,7 @@ a:hover, .toTop:hover {
 }
 
 .mainContentArea blockquote:before {
-    font-family: "CachetW05-Medium";
+    /*font-family: "CachetW05-Medium";*/
     content: open-quote;
     font-size: 7em;
     line-height: .1em;
@@ -849,7 +867,7 @@ a:hover, .toTop:hover {
 }
 
 .mainContentArea blockquote:after {
-    font-family: "CachetW05-Medium";
+    /*font-family: "CachetW05-Medium";*/
     content: close-quote;
     font-size: 7em;
     line-height: .1em;
@@ -885,7 +903,7 @@ a:hover, .toTop:hover {
 
 /* Tables */
 .mainContentArea table {
-    font-family: "CachetW05-Medium";
+    /*font-family: "CachetW05-Medium";*/
     width: 100% !important;
    
     font-size: 10pt;
@@ -970,13 +988,13 @@ table.Dialog.two-column TD {
     border-radius: 0;
     padding: 5px 10px;
     color: #636466 !important;
-    font-family: "CachetW05-Medium";
+    /*font-family: "CachetW05-Medium";*/
     font-size: 10pt;
 }
 
 .Dialog .mwInput input {
     color: #bfbfbf !important;
-    font-family: "CachetW05-Medium";
+    /*font-family: "CachetW05-Medium";*/
     font-size: 13pt;
     line-height: 1.2em;
 }
@@ -1007,7 +1025,7 @@ table.Dialog.two-column TD {
     border-radius: 0;
     padding: 5px 10px;
     color: #fff !important;
-    font-family: "CachetW05-Medium";
+    /*font-family: "CachetW05-Medium";*/
     font-size: 10pt;
     text-transform: uppercase;
     border-radius: 5px
@@ -1040,7 +1058,7 @@ table.Dialog.two-column TD {
 
 .Dialog .mwInput.Button input.mw {
     color: #fff !important;
-    font-family: "CachetW05-Medium";
+    /*font-family: "CachetW05-Medium";*/
     font-size: 11pt;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -1059,7 +1077,7 @@ table.Dialog.two-column TD {
 
 /** Default **/
 .button p a {
-    font-family: "CachetW05-Medium";
+    /*font-family: "CachetW05-Medium";*/
     display: inline-block;
     background: #f47b20;
     color: #ffffff;
@@ -1185,7 +1203,7 @@ table.Dialog.two-column TD {
 }
 
 .footerCol:first-child p a {
-    font-family: "CachetW05-Medium";
+    /*font-family: "CachetW05-Medium";*/
     display: inline-block;
     background: #fff;
     color: #ec008c;
@@ -1232,7 +1250,7 @@ table.Dialog.two-column TD {
 
 
 .footer p {
-    font-family: Verdana, Geneva, sans-serif;
+    /*font-family: Verdana, Geneva, sans-serif;*/
     color: #fff;
     font-size: 17px;
     line-height: 23px;
@@ -1244,7 +1262,7 @@ table.Dialog.two-column TD {
 }
 
 .footer a {
-    font-family: Verdana, Geneva, sans-serif;
+    /*font-family: Verdana, Geneva, sans-serif;*/
     color: #fff;
     font-size: 15px;
     text-decoration: none;
@@ -1256,12 +1274,12 @@ table.Dialog.two-column TD {
 }
 
 .footer ul li a {
-    font-family: "CachetW05-Medium";
+    /*font-family: "CachetW05-Medium";*/
     font-size: 19px
 }
 
 .footer p strong {
-    font-family: "CachetW05-Medium";
+    /*font-family: "CachetW05-Medium";*/
     font-size: 19px
 }
 
@@ -1282,7 +1300,7 @@ table.Dialog.two-column TD {
 }
 
 .copyright p {
-    font-family: "CachetW05-Medium";
+    /*font-family: "CachetW05-Medium";*/
     padding-bottom: 0;
     color: #fff;
 }
@@ -1695,7 +1713,7 @@ table.Dialog.two-column TD {
     margin: 15px 0;
     font-size: 25px;
     line-height: 35px;
-    font-family: Verdana, Geneva, sans-serif;
+    /*font-family: Verdana, Geneva, sans-serif;*/
 }
 
 .slider .captionInner {
@@ -1958,7 +1976,7 @@ table.Dialog.two-column TD {
 }
 
 .sidebarMenu ul li a {
-    font-family: "CachetW05-Medium";
+    /*font-family: "CachetW05-Medium";*/
     font-size: 15pt;
     text-decoration: none;
 }
@@ -2233,7 +2251,7 @@ table.Dialog.two-column TD {
 }
 
 .callToActionWrap.five .callToAction p {
-    font-family: "CachetW05-Medium";
+    /*font-family: "CachetW05-Medium";*/
     font-size: 12pt;
     line-height: 20pt;
     margin: 15px 0;
@@ -3489,7 +3507,7 @@ ul.areas li:before {
 }
 
 .homeTwoColumn a .imageCaption .mainContentArea p {
-    font-family: "CachetW05-Medium";
+    /*font-family: "CachetW05-Medium";*/
     font-size: 18pt;
     line-height: 25pt;
     letter-spacing: 1px;
@@ -3521,7 +3539,7 @@ ul.areas li:before {
 }
 
 .alertIcon p {
-    font-family: "CachetW05-Medium";
+    /*font-family: "CachetW05-Medium";*/
     font-size: 10pt;
     color: #fff;
     font-weight: 600;
@@ -3541,11 +3559,11 @@ ul.areas li:before {
     line-height: 16pt;
     color: #fff;
     font-weight: 300;
-    font-family: Verdana, Geneva, sans-serif;
+    /*font-family: Verdana, Geneva, sans-serif;*/
 }
 
 .alertBar p strong {
-    font-family: "CachetW05-Medium";
+    /*font-family: "CachetW05-Medium";*/
     font-size: 20px;
 }
 
@@ -4273,7 +4291,7 @@ ul.areas li:before {
 }
 
 .accordionBtn p {
-    font-family: "CachetW05-Medium";
+    /*font-family: "CachetW05-Medium";*/
 
     font-size: 12pt;
 
@@ -4338,7 +4356,7 @@ ul.areas li:before {
     font-size: 9pt;
 
     color: #636466;
-    font-family: "CachetW05-Medium";
+    /*font-family: "CachetW05-Medium";*/
 
 
     text-transform: uppercase;
@@ -4357,7 +4375,7 @@ ul.areas li:before {
 
 
 .programPost p a {
-    font-family: "CachetW05-Medium";
+    /*font-family: "CachetW05-Medium";*/
 
     display: inline-block;
 
@@ -4586,13 +4604,13 @@ ul.areas li:before {
 }
 
 .ctaWrapOverlay p {
-    font-family: "CachetW05-Medium";
+    /*font-family: "CachetW05-Medium";*/
     font-size: 32pt;
     color: #fff;
 }
 
 .ctaWrapOverlay p a {
-    font-family: "CachetW05-Medium";
+    /*font-family: "CachetW05-Medium";*/
     font-size: 18px;
     background: #f47b20;
     color: #fff;
@@ -4772,7 +4790,7 @@ ul.areas li:before {
 .homeNewsItem:first-child p {
     color: #7ac143;
     font-size: 20px;
-    font-family: "CachetW05-Medium";
+    /*font-family: "CachetW05-Medium";*/
     position: absolute;
     bottom: 0%;
     left: 10%;
@@ -4914,35 +4932,35 @@ ul.areas li:before {
     opacity: 1;
     color: #6c757d;
     font-weight: 100;
-    font-family: Verdana, Geneva, sans-serif;
+    /*font-family: Verdana, Geneva, sans-serif;*/
 }
 
 .mainContentArea ::-moz-placeholder {
     opacity: 1;
     color: #6c757d;
     font-weight: 100;
-    font-family: Verdana, Geneva, sans-serif;
+    /*font-family: Verdana, Geneva, sans-serif;*/
 }
 
 .mainContentArea :-ms-input-placeholder {
     opacity: 1;
     color: #6c757d;
     font-weight: 100;
-    font-family: Verdana, Geneva, sans-serif;
+    /*font-family: Verdana, Geneva, sans-serif;*/
 }
 
 .mainContentArea ::-ms-input-placeholder {
     opacity: 1;
     color: #6c757d;
     font-weight: 100;
-    font-family: Verdana, Geneva, sans-serif;
+    /*font-family: Verdana, Geneva, sans-serif;*/
 }
 
 .mainContentArea ::placeholder {
     opacity: 1;
     color: #6c757d;
     font-weight: 100;
-    font-family: Verdana, Geneva, sans-serif;
+    /*font-family: Verdana, Geneva, sans-serif;*/
 }
 
 

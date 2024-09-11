@@ -130,7 +130,7 @@ html {
 }
 
 .tutorial ul li {
-    font-family: "Open Sans", sans-serif;
+    /* font-family: "Open Sans", sans-serif; */
     font-size: 1rem;
     font-weight: 400;
     color: #333;
