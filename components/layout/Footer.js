@@ -56,7 +56,7 @@ function Footer() {
                                             <Link href='/buddysystem'><a>Buddy System</a></Link>
                                         </li>
                                         <li>
-                                            <Link href='/activities'><a>Activities</a></Link>
+                                            <Link href='/events'><a>Activities</a></Link>
                                         </li>
                                         <li>
                                             <Link href='/contact'><a>Contact Us</a></Link>
