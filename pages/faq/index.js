@@ -268,7 +268,8 @@ function FAQ() {
                                                 </h5>
                                                 <p>
                                                     For any information regarding the accommodation,
-                                                    you can contact ac.primorska.exchange@upr.si.
+                                                    you can contact
+                                                    <Link href="mailto:accommodation@esn-primorska.si"><a> accommodation@esn-primorska.si</a></Link>.
                                                 </p>
                                                 <h5>
                                                     Do you help students with accommodation or do we

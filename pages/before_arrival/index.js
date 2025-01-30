@@ -359,7 +359,6 @@ function BeforeArrival() {
                                                     list, the
                                                     folder is password protected, and you can get a password by sending
                                                     an email to one of two mails: <Link
-                                                        href="mailto:ac.primorska.exchange@upr.si"><a>ac.primorska.exchange@upr.si</a></Link> or <Link
                                                         href="mailto:accommodation@esn-primorska.si"><a>accommodation@esn-primorska.si</a></Link>, and
                                                     introducing yourself. <br/><br/>
                                                     If you manage to secure one
