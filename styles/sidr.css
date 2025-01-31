@@ -106,15 +106,16 @@
 }
 
 .sidr ul li a.arrow {
-    display: block;
-    color: #fff;
-    position: absolute;
-    right: 15px;
-    top: 10px;
-    z-index: 999;
-    padding: 0;
-    cursor: pointer;
-    text-align: right;
+        display: block;
+        color: #fff;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+        z-index: 999;
+        padding: 5px 10px 5px 10px;
+        /*padding: 0;*/
+        cursor: pointer;
+        text-align: right;
 }
 
 .sidr ul li a.arrow:before {
