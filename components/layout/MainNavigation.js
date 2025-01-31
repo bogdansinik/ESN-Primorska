@@ -233,7 +233,7 @@ function MainNavigation(props) {
                 </div>
                 <div id="mobile-header">
                     <a id="responsive-menu-button" href="#">
-                        <div id="navIcon"><span></span> <span></span> <span></span> <span></span> <span></span>
+                        <div id="navIcon"> <span></span> <span></span> <span></span> <span></span>
                             <span></span> <span></span></div>
                     </a>
                 </div>
