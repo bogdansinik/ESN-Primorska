@@ -7,6 +7,7 @@ import Emilija from '../../public/images/emilija.jpg';
 import Dunja from '../../public/images/dunja.png';
 import Doris from '../../public/images/doris.png';
 import Jovana from '../../public/images/jovana.png';
+import Minja from '../../public/images/minja.jpg';
 import Natalija from '../../public/images/natalija.png';
 import Jelena from '../../public/images/jelena.jpeg';
 function About() {
@@ -326,10 +327,10 @@ function About() {
                                                                 <div className="card">
                                                                     <div className="team-image-wrapper">
                                                                         <Image alt="" className="team-member-image"
-                                                                               src={Jovana}/>
+                                                                               src={Minja}/>
                                                                     </div>
                                                                     <p style={{textAlign: "center"}} className="text-blk name">
-                                                                        Jovana<br/>Lukić
+                                                                        Minja<br/>Tomašević
                                                                     </p>
                                                                     <p className="text-blk position">
                                                                         Human Resources
