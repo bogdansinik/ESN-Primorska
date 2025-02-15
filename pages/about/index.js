@@ -7,7 +7,7 @@ import Emilija from '../../public/images/emilija.jpg';
 import Dunja from '../../public/images/dunja.png';
 import Doris from '../../public/images/doris.png';
 import Jovana from '../../public/images/jovana.png';
-import Minja from '../../public/images/minja.jpg';
+import Minja from '../../public/images/minja.jpeg';
 import Natalija from '../../public/images/natalija.png';
 import Jelena from '../../public/images/jelena.jpeg';
 function About() {
