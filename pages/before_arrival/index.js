@@ -305,20 +305,17 @@ function BeforeArrival() {
 
                                             <ul>
 
-                                                <li>Koper bus single ride: EUR 0.8 if you pay with Koper card of EUR 1.5
-                                                    if
-                                                    you
-                                                    pay on a bus;
+                                                <li>Koper bus single ride (red buses): EUR 1
                                                 </li>
 
-                                                <li>Koper bus monthly ticket: EUR 10;</li>
+                                                <li>Koper bus monthly ticket (for students): EUR 5;</li>
 
                                                 <li>Coastal bus (Koper - Piran) single ticket: depending on the
                                                     distance,
-                                                    between EUR 1.30 and EUR 3.60
+                                                    between EUR 1.80 and EUR 4.20
                                                 </li>
 
-                                                <li>Coastal bus (Koper - Piran) student monthly ticket: EUR 25</li>
+                                                <li>Whole Slovenia student monthly ticket: EUR 25</li>
 
                                             </ul>
 
