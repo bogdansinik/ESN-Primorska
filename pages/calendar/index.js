@@ -8,6 +8,7 @@ export async function getStaticProps() {
 
     const notion = new Client({auth: process.env.NOTION_API_KEY})
     const dbId = process.env.NOTION_DB_ID
+    console.log(dbId)
     const db = await notion.databases.query({database_id: dbId})
     const results = db.results
 
