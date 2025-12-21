@@ -100,6 +100,11 @@ function MainNavigation(props) {
 
                                                 </ul>
                                             </li>
+
+                                            <li>
+                                                <Link href='/partners'>Partners</Link>
+                                            </li>
+
                                             <li className="has-children">
                                                 <Link href={t("common:menu_exchange_student_url")}><a><span
                                                     className="Title">{t("common:menu_exchange_student")}</span></a></Link>

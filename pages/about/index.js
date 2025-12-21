@@ -12,6 +12,7 @@ import Natalija from '../../public/images/natalija.png';
 import Jelena from '../../public/images/jelena.jpeg';
 import Aleksandra from "../../public/images/aleksandra.jpg"
 import Ivana from "../../public/images/Ivana.jpeg"
+
 function About() {
 
     useEffect(() => {
@@ -103,7 +104,10 @@ function About() {
                                                 <div className="blockContents">
 
                                                     <p>
-                                                    We are a student organization located in Primorska, the coastal region of Slovenia. Our mission is to guide, advise, and assist international students, ensuring their time at the University of Primorska is truly unforgettable!
+                                                        We are a student organization located in Primorska, the coastal
+                                                        region of Slovenia. Our mission is to guide, advise, and assist
+                                                        international students, ensuring their time at the University of
+                                                        Primorska is truly unforgettable!
                                                     </p>
                                                     <p>
                                                         We plan events for both Erasmus students and regular students
@@ -186,7 +190,8 @@ function About() {
                                                                         <Image alt="" className="team-member-image"
                                                                                src={Joze}/>
                                                                     </div>
-                                                                    <p style={{textAlign: "center"}} className="text-blk name">
+                                                                    <p style={{textAlign: "center"}}
+                                                                       className="text-blk name">
                                                                         Jože<br/>Primorec
                                                                     </p>
                                                                     <p className="text-blk position">
@@ -204,13 +209,15 @@ function About() {
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                                                            <div
+                                                                className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
                                                                 <div className="card">
                                                                     <div className="team-image-wrapper">
                                                                         <Image alt="" className="team-member-image"
                                                                                src={Emilija}/>
                                                                     </div>
-                                                                    <p style={{textAlign: "center"}} className="text-blk name">
+                                                                    <p style={{textAlign: "center"}}
+                                                                       className="text-blk name">
                                                                         Emilija<br/>Toth
                                                                     </p>
                                                                     <p className="text-blk position">
@@ -218,7 +225,7 @@ function About() {
                                                                     </p>
                                                                     <div className="social-icons">
                                                                         <a href="mailto:president@esn-primorska.si"
-                                                                           style={{fontSize:"large"}}>
+                                                                           style={{fontSize: "large"}}>
                                                                             <span className="fa fa-envelope"/>
                                                                         </a>
                                                                         {/* <a href="#"
@@ -228,13 +235,15 @@ function About() {
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                                                            <div
+                                                                className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
                                                                 <div className="card">
                                                                     <div className="team-image-wrapper">
                                                                         <Image alt="" className="team-member-image"
                                                                                src={Ivana}/>
                                                                     </div>
-                                                                    <p style={{textAlign: "center"}} className="text-blk name">
+                                                                    <p style={{textAlign: "center"}}
+                                                                       className="text-blk name">
                                                                         Ivana<br/>Dimitrova
                                                                     </p>
                                                                     <p className="text-blk position">
@@ -242,7 +251,7 @@ function About() {
                                                                     </p>
                                                                     <div className="social-icons">
                                                                         <a href="mailto:vice-president@esn-primorska.si"
-                                                                           style={{fontSize:"large"}}>
+                                                                           style={{fontSize: "large"}}>
                                                                             <span className="fa fa-envelope"/>
                                                                         </a>
                                                                         {/* <a href="#"
@@ -252,13 +261,15 @@ function About() {
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                                                            <div
+                                                                className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
                                                                 <div className="card">
                                                                     <div className="team-image-wrapper">
                                                                         <Image alt="" className="team-member-image"
                                                                                src={Joze}/>
                                                                     </div>
-                                                                    <p style={{textAlign: "center"}} className="text-blk name">
+                                                                    <p style={{textAlign: "center"}}
+                                                                       className="text-blk name">
                                                                         Andrijana<br/>
                                                                     </p>
                                                                     <p className="text-blk position">
@@ -266,7 +277,7 @@ function About() {
                                                                     </p>
                                                                     <div className="social-icons">
                                                                         <a href="mailto:treasurer@esn-primorska.si"
-                                                                           style={{fontSize:"large"}}>
+                                                                           style={{fontSize: "large"}}>
                                                                             <span className="fa fa-envelope"/>
                                                                         </a>
                                                                         {/* <a href="#"
@@ -276,21 +287,23 @@ function About() {
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                                                            <div
+                                                                className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
                                                                 <div className="card">
                                                                     <div className="team-image-wrapper">
                                                                         <Image alt="" className="team-member-image"
                                                                                src={Doris}/>
                                                                     </div>
-                                                                    <p style={{textAlign: "center"}} className="text-blk name">
+                                                                    <p style={{textAlign: "center"}}
+                                                                       className="text-blk name">
                                                                         Doris<br/>Mujić
                                                                     </p>
                                                                     <p className="text-blk position">
-                                                                        PR Coordinator
+                                                                        Communication Manager
                                                                     </p>
                                                                     <div className="social-icons">
                                                                         <a href="mailto:pr@esn-primorska.si"
-                                                                           style={{fontSize:"large"}}>
+                                                                           style={{fontSize: "large"}}>
                                                                             <span className="fa fa-envelope"/>
                                                                         </a>
                                                                         {/* <a href="#"
@@ -325,13 +338,15 @@ function About() {
                                                                 </div>
                                                             </div> */}
 
-                                                            <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+                                                            <div
+                                                                className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
                                                                 <div className="card">
                                                                     <div className="team-image-wrapper">
                                                                         <Image alt="" className="team-member-image"
                                                                                src={Aleksandra}/>
                                                                     </div>
-                                                                    <p style={{textAlign: "center"}} className="text-blk name">
+                                                                    <p style={{textAlign: "center"}}
+                                                                       className="text-blk name">
                                                                         Aleksandra<br/>Zečević
                                                                     </p>
                                                                     <p className="text-blk position">
@@ -339,7 +354,7 @@ function About() {
                                                                     </p>
                                                                     <div className="social-icons">
                                                                         <a href="mailto:hr@esn-primorska.si"
-                                                                           style={{fontSize:"large"}}>
+                                                                           style={{fontSize: "large"}}>
                                                                             <span className="fa fa-envelope"/>
                                                                         </a>
                                                                         {/* <a href="#"
